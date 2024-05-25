@@ -1,0 +1,7 @@
+<form [formGroup]="form">
+  <input formControlName="email" placeholder="Enter your email" />
+  <div *ngIf="form.controls['email'].invalid && form.controls['email'].touched">
+    Invalid email address
+  </div>
+</form>
+
