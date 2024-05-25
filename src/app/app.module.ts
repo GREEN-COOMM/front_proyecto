@@ -9,6 +9,8 @@ import { PagLandingComponent } from './pag-landing/pag-landing.component';
 import { PagServicioComponent } from './pag-servicio/pag-servicio.component';
 import { PagRecompensaComponent } from './pag-recompensa/pag-recompensa.component';
 import { EmailValidatorComponent } from './email-validator/email-validator.component';
+import { LoginComponent } from './login/login.component';
+import { RegistrarComponent } from './registrar/registrar.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { EmailValidatorComponent } from './email-validator/email-validator.compo
     PagLandingComponent,
     PagServicioComponent,
     PagRecompensaComponent,
-    EmailValidatorComponent
+    EmailValidatorComponent,
+    LoginComponent,
+    RegistrarComponent
   ],
   imports: [
     BrowserModule,
