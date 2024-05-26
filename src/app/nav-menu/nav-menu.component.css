@@ -1,4 +1,9 @@
 .navbar-brand img {
-    width: 50px; /* Establece el ancho deseado */
+    width: 100px; /* Establece el ancho deseado */
     height: auto; /* Para mantener la proporción de aspecto */
+}
+
+.nav-link {
+    color: black;
+    font-size: small;
 }
